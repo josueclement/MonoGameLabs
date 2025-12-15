@@ -5,16 +5,16 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace App1;
 
-public class FontManager(ContentManager content)
+public class FontManager<T>(ContentManager content)
 {
-    private Dictionary<object, SpriteFont> _fonts = [];
+    private Dictionary<T, SpriteFont> _fonts = [];
     
-    public void LoadFonts(params (object key, string assetName)[] assets)
+    public void LoadFonts(params (T key, string assetName)[] assets)
     {
-        foreach ((object key, string assetName) in assets)
+        foreach ((T key, string assetName) in assets)
             _fonts.Add(key, content.Load<SpriteFont>(assetName));
     }
 
-    public void DrawString(SpriteBatch spriteBatch, object key, string text, Vector2 position, Color color)
+    public void DrawString(SpriteBatch spriteBatch, T key, string text, Vector2 position, Color color)
         => spriteBatch.DrawString(_fonts[key], text, position, color);
 }

@@ -18,7 +18,7 @@ public class Game1 : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
-    private FontManager _fontManager;
+    private FontManager<UserFont> _fontManager;
     
     private int _frames = 0;
 
@@ -27,7 +27,7 @@ public class Game1 : Game
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
-        _fontManager = new FontManager(Content);
+        _fontManager = new FontManager<UserFont>(Content);
     }
 
     protected override void Initialize()
