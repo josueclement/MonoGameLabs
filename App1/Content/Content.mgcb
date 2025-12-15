@@ -13,10 +13,45 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin JetBrainsMono-Regular.spritefont
+#begin JetBrainsMono-Regular-12.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:JetBrainsMono-Regular.spritefont
+/build:JetBrainsMono-Regular-12.spritefont
+
+#begin JetBrainsMono-Regular-14.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:JetBrainsMono-Regular-14.spritefont
+
+#begin JetBrainsMono-Regular-16.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:JetBrainsMono-Regular-16.spritefont
+
+#begin JetBrainsMono-Regular-18.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:JetBrainsMono-Regular-18.spritefont
+
+#begin JetBrainsMono-Regular-20.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:JetBrainsMono-Regular-20.spritefont
+
+#begin JetBrainsMono-Regular-24.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:JetBrainsMono-Regular-24.spritefont
 
